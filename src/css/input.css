@@ -1,0 +1,62 @@
+@import url("./font.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: IRANSans;
+  }
+}
+@layer components {
+  .swiper-wrapper {
+    @apply w-full h-max pb-16 ease-linear relative;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    position: absolute;
+
+    bottom: 100px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4a4848;
+    width: 70px;
+    height: 50px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding-inline: 20px;
+  }
+
+  .next2:after,
+  .prev2:after {
+    top: -10px;
+    /* flex: 1 1 auto; */
+    margin: 8px;
+  }
+  /* width */
+.scr::-webkit-scrollbar {
+  width: 4px !important;
+  border-radius: 20px;
+}
+
+/* Track */
+.scr::-webkit-scrollbar-track {
+  background: red;
+    border-radius: 20px;
+
+}
+
+/* Handle */
+.scr::-webkit-scrollbar-thumb {
+  background: rgb(85, 0, 0);
+    border-radius: 20px;
+
+}
+}
+
+
+
+
