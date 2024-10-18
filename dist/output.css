@@ -1233,6 +1233,11 @@ html {
   padding-right: 1.5rem;
 }
 
+.px-\[160px\] {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -1266,21 +1271,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.px-\[80px\] {
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.px-\[160px\] {
-  padding-left: 160px;
-  padding-right: 160px;
 }
 
 .pb-2 {
@@ -1611,6 +1601,11 @@ html {
     padding-right: 1.5rem;
   }
 
+  .md\:px-\[160px\] {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1625,6 +1620,11 @@ html {
   .lg\:gap-x-0 {
     -moz-column-gap: 0px;
          column-gap: 0px;
+  }
+
+  .lg\:px-\[160px\] {
+    padding-left: 160px;
+    padding-right: 160px;
   }
 }
 
